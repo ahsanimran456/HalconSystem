@@ -49,27 +49,30 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="w-30 flex items-centermax-w-full px-4 ">
               <Link
                 href="/"
-                className={`header-logo block w-full ${
+                className={`header-logo  gap-3 items-center   flex w-full ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/logo1.png"
                   alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
+                  width={40}
+                  height={40}
+                  className=" dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/logo1.png"
                   alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
+                  width={50}
+                  height={40}
+                  className="hidden dark:block"
                 />
+                <span className="text-lg leading-5 font-bold text-black dark:text-white">
+                  Halcon Systems
+                </span>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
